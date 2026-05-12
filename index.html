@@ -32,10 +32,17 @@
     <link rel="canonical" href="https://www.sirkularkarya-indonesia.com/">
 
     <!-- ================================================
-         EXTERNAL CSS
+         EXTERNAL CSS (non-render-blocking)
+         Preload + swap agar tidak block initial render
     ================================================= -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <!-- Preload hero image (LCP element, 755 KiB) -->
+    <link rel="preload" as="image" href="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/alduro-home-1-1.webp">
+    <!-- Font Awesome: preload + async load -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
+    <!-- Swiper CSS: preload + async load -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"></noscript>
 
     <!-- ================================================
          SCHEMA MARKUP
