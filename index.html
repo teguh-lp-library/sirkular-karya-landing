@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- ================================================
+         GOOGLE TAG MANAGER (HEAD)
+         Ganti GTM-XXXXXXX dengan ID GTM kamu
+    ================================================= -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+
+    <!-- ================================================
+         META & SEO
+    ================================================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Atap lebih dingin, lebih kuat, dari daur ulang plastik. Solusi atap modern untuk rumah tropis Indonesia dari PT Sirkular Karya Indonesia.">
+    <meta name="keywords" content="atap modern, rumah tropis, atap daur ulang, Alduro Roof, Ecolite, Alderon TE, bahan bangunan sirkular">
+    <meta name="author" content="PT Sirkular Karya Indonesia">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Atap Lebih Dingin, Lebih Kuat, dari Daur Ulang Plastik | Sirkular Karya Indonesia">
+    <meta property="og:description" content="Solusi atap modern untuk rumah tropis Indonesia. Multilapis, anti karat, ramah lingkungan.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sirkularkarya-indonesia.com/">
+    <meta property="og:locale" content="id_ID">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Atap Lebih Dingin, Lebih Kuat, dari Daur Ulang Plastik | Sirkular Karya Indonesia</title>
+    <link rel="canonical" href="https://www.sirkularkarya-indonesia.com/">
+
+    <!-- ================================================
+         EXTERNAL CSS
+    ================================================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+
+    <!-- ================================================
+         SCHEMA MARKUP
+    ================================================= -->
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PT Sirkular Karya Indonesia","url":"https://www.sirkularkarya-indonesia.com","telephone":"+62-21-2188-2000","address":{"@type":"PostalAddress","streetAddress":"Altira Office Tower 38th Floor, Jl. Yos Sudarso Kav. 85","addressLocality":"Jakarta Utara","postalCode":"14350","addressCountry":"ID"},"parentOrganization":{"@type":"Organization","name":"Impack Pratama Group"}}</script>
+
+    <!-- ================================================
+         CSS
+    ================================================= -->
+    <style>
+        :root {
+            --green:#4EB848;--green-dk:#3d9a39;--green-lt:#e8f5e6;--green-bg:rgba(78,184,72,0.08);
+            --dark:#1a2a35;--dark-lt:#263845;--txt:#2c3e50;--txt-lt:#5a6c7d;--white:#fff;
+            --gray:#f5f7f9;--gray-dk:#FAFAFA;--bdr:#e0e5ea;--nav-h:68px;--mw:1140px;
+            --ease:.3s ease;--ease-b:.4s cubic-bezier(.25,.46,.45,.94);
+        }
+        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+        html{scroll-behavior:smooth;scroll-padding-top:var(--nav-h)}
+        body{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;color:var(--txt);line-height:1.6;background:var(--white);-webkit-font-smoothing:antialiased}
+        img{max-width:100%;height:auto;display:block}a{text-decoration:none;color:inherit}ul{list-style:none}
+        .container{max-width:var(--mw);margin:0 auto;padding:0 24px}
+        .fade-in{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+        .fade-in.visible{opacity:1;transform:translateY(0)}
+        .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;transition:all var(--ease-b);border:none;font-family:inherit}
+        .btn-primary{background:var(--green);color:var(--white)}.btn-primary:hover{background:var(--green-dk);transform:translateY(-2px);box-shadow:0 6px 20px rgba(78,184,72,.3)}
+        .btn-outline{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,.6)}.btn-outline:hover{background:var(--white);color:var(--green);border-color:var(--white)}
+        .btn-white{background:var(--white);color:var(--green)}.btn-white:hover{background:var(--green-lt);transform:translateY(-2px)}
+        .sh{text-align:center;margin-bottom:48px}
+        .sh h2{font-size:32px;font-weight:800;color:var(--txt);line-height:1.2;margin-bottom:12px}
+        .sh h2 .hl{color:var(--green)}
+        .sh p{font-size:16px;color:var(--txt-lt);max-width:560px;margin:0 auto}
+
+        /* ================================================
+           SECTION 1: NAVBAR
+           Mega menu dropdown sesuai struktur website asli
+        ================================================= */
+        .navbar{position:fixed;top:0;left:0;width:100%;height:var(--nav-h);background:var(--white);z-index:1000;border-bottom:1px solid var(--bdr);transition:box-shadow var(--ease)}
+        .navbar.scrolled{box-shadow:0 2px 24px rgba(0,0,0,.08)}
+        .navbar .container{display:flex;align-items:center;justify-content:space-between;height:100%}
+        .navbar__logo img{height:36px;width:auto}
+        .navbar__logo-text{font-size:20px;font-weight:700;color:var(--green)}.navbar__logo-text span{color:var(--txt);font-weight:400}
+        .navbar__menu{display:flex;gap:4px;align-items:center}
+        .navbar__item{position:relative;padding-bottom:12px;margin-bottom:-12px}
+        .navbar__link{color:var(--txt);font-size:14px;font-weight:500;transition:color var(--ease);padding:8px 14px;display:flex;align-items:center;gap:5px;cursor:pointer;background:none;border:none;font-family:inherit}
+        .navbar__link:hover,.navbar__link.active{color:var(--green)}
+        .navbar__link i.fa-chevron-down{font-size:10px;transition:transform var(--ease)}
+        .navbar__item:hover .navbar__link i.fa-chevron-down{transform:rotate(180deg)}
+        /* Dropdown */
+        .navbar__dropdown{position:absolute;top:calc(100% - 12px);left:0;background:var(--white);border:1px solid var(--bdr);border-radius:8px;min-width:220px;box-shadow:0 8px 24px rgba(0,0,0,.08);opacity:0;visibility:hidden;pointer-events:none;transition:opacity var(--ease),visibility var(--ease);padding:8px 0;z-index:100;padding-top:20px}
+        .navbar__item:hover .navbar__dropdown{opacity:1;visibility:visible;pointer-events:all}
+        .navbar__dropdown a{display:block;padding:8px 18px;font-size:13px;color:var(--txt);transition:color var(--ease)}.navbar__dropdown a:hover{color:var(--green)}
+        /* Language flags */
+        .navbar__lang{display:flex;align-items:center;gap:10px;margin-left:8px}
+        .navbar__lang a{font-size:13px;font-weight:600;color:var(--txt-lt);display:flex;align-items:center;gap:4px;transition:color var(--ease)}.navbar__lang a:hover{color:var(--green)}
+        .navbar__lang a.active-lang{color:var(--green);font-weight:700}
+        .navbar__cta{background:var(--green);color:var(--white);padding:10px 22px;border-radius:6px;font-size:14px;font-weight:600;border:none;cursor:pointer;transition:background var(--ease);font-family:inherit;margin-left:8px}.navbar__cta:hover{background:var(--green-dk)}
+        .navbar__toggle{display:none;background:none;border:none;cursor:pointer;padding:4px}.navbar__toggle i{font-size:22px;color:var(--txt)}
+
+        /* ================================================
+           SECTION 2: HERO
+        ================================================= */
+        .hero{margin-top:var(--nav-h);min-height:580px;display:flex;align-items:center;position:relative;overflow:hidden}
+        .hero__bg{position:absolute;inset:0;background:url('https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/alduro-home-1-1.webp') center/cover no-repeat}
+        .hero__overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(26,42,53,.88) 0%,rgba(38,56,69,.75) 50%,rgba(26,42,53,.65) 100%)}
+        .hero .container{position:relative;z-index:1}
+        .hero__content{max-width:640px}
+        .hero h1{font-size:46px;font-weight:800;color:var(--white);line-height:1.12;margin-bottom:18px;letter-spacing:-.5px}
+        .hero h1 em{font-style:normal;color:var(--green)}
+        .hero__sub{font-size:17px;color:rgba(255,255,255,.85);line-height:1.7;margin-bottom:32px;max-width:520px}
+        .hero__btns{display:flex;gap:12px;flex-wrap:wrap}
+
+        /* ================================================
+           SECTION 3: BENEFITS
+        ================================================= */
+        .benefits{padding:80px 0;background:var(--gray)}
+        .bg{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+        .bc{background:var(--white);border:1px solid var(--bdr);border-radius:16px;padding:32px 24px;text-align:center;transition:all var(--ease-b)}
+        .bc:hover{transform:translateY(-6px);box-shadow:0 12px 32px rgba(0,0,0,.06);border-color:var(--green)}
+        .bc__i{width:56px;height:56px;border-radius:14px;background:var(--green-lt);display:flex;align-items:center;justify-content:center;margin:0 auto 16px}
+        .bc__i i{font-size:22px;color:var(--green)}
+        .bc h3{font-size:17px;font-weight:700;margin-bottom:8px}
+        .bc p{font-size:14px;color:var(--txt-lt);line-height:1.6}
+
+        /* ================================================
+           SECTION 4: ALUR EKONOMI SIRKULAR
+        ================================================= */
+        .sirkular{padding:80px 0;background:var(--white)}
+        .sirkular__flow{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:0}
+        .sirkular__step{display:flex;align-items:center}
+        .sirkular__box{background:var(--dark);color:var(--white);padding:14px 28px;border-radius:8px;font-size:15px;font-weight:700;text-align:center;min-width:100px;transition:all var(--ease)}
+        .sirkular__box:hover{background:var(--green);transform:scale(1.05)}
+        .sirkular__arrow{color:var(--green);font-size:18px;margin:0 8px;flex-shrink:0}
+        /* Cycle nodes row */
+        .sirkular__cycle-row{display:flex;align-items:center;justify-content:center;gap:0;margin-top:20px;flex-wrap:wrap}
+        .sirkular__node{display:flex;align-items:center}
+        .sirkular__node-box{background:var(--green);color:var(--white);padding:14px 20px;border-radius:8px;font-size:14px;font-weight:700;text-align:center;min-width:110px;transition:all var(--ease);display:flex;flex-direction:column;align-items:center;gap:4px}
+        .sirkular__node-box i{font-size:20px}
+        .sirkular__node-box:hover{background:var(--green-dk);transform:scale(1.05)}
+        .sirkular__cycle-arrow{color:var(--dark);font-size:18px;margin:0 8px;flex-shrink:0}
+        /* Return arrow */
+        .sirkular__return{display:flex;align-items:center;justify-content:center;margin-top:16px;gap:8px;color:var(--green);font-size:14px;font-weight:600}
+        .sirkular__return i{font-size:16px}
+        .sirkular__caption{text-align:center;margin-top:28px;font-size:15px;color:var(--txt-lt);font-style:italic}
+
+        /* ================================================
+           SECTION 5: PRODUCTS
+        ================================================= */
+        .products{padding:80px 0;background:var(--gray)}
+        .products .swiper{padding:10px 4px 52px}
+        .products .swiper-slide{height:auto}
+        .pc{background:var(--white);border:1px solid var(--bdr);border-radius:16px;padding:24px 20px;text-align:center;height:100%;display:flex;flex-direction:column;align-items:center;gap:12px;transition:all var(--ease-b)}
+        .pc:hover{box-shadow:0 12px 32px rgba(0,0,0,.08);border-color:var(--green)}
+        .pc__badge{display:inline-block;background:var(--green);color:var(--white);padding:4px 12px;border-radius:12px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+        .pc__logo{height:40px;width:auto;object-fit:contain}
+        .pc__img{width:100%;height:160px;object-fit:contain;border-radius:8px}
+        .pc__btn{margin-top:auto;display:inline-flex;align-items:center;gap:6px;color:var(--white);background:var(--green);font-size:13px;font-weight:600;padding:8px 18px;border-radius:6px;transition:all var(--ease)}
+        .pc__btn:hover{background:var(--green-dk);gap:10px}
+        /* Swiper pagination */
+        .swiper-pagination-bullet{width:10px;height:10px;background:#ccc;opacity:1;transition:all var(--ease)}
+        .swiper-pagination-bullet-active{background:var(--green)!important;width:28px;border-radius:5px}
+
+        /* ================================================
+           SECTION 6: CTA
+        ================================================= */
+        .cta-s{padding:80px 0;background:linear-gradient(135deg,var(--green) 0%,var(--green-dk) 100%);position:relative;overflow:hidden}
+        .cta-s::before{content:"";position:absolute;top:-50%;right:-20%;width:600px;height:600px;border-radius:50%;background:rgba(255,255,255,.05)}
+        .cta-s::after{content:"";position:absolute;bottom:-30%;left:-10%;width:400px;height:400px;border-radius:50%;background:rgba(255,255,255,.05)}
+        .cta__content{position:relative;z-index:1;text-align:center;max-width:640px;margin:0 auto}
+        .cta__content h2{font-size:34px;font-weight:800;color:var(--white);line-height:1.2;margin-bottom:16px}
+        .cta__content p{font-size:16px;color:rgba(255,255,255,.9);line-height:1.7;margin-bottom:28px}
+
+        /* ================================================
+           SECTION 7: FAQ
+        ================================================= */
+        .faq{padding:80px 0;background:var(--gray-dk)}
+        .faq__list{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+        .faq__item{background:var(--white);border-radius:16px;border:1px solid rgba(0,0,0,.05);overflow:hidden;transition:all .35s ease}
+        .faq__item:hover{border-color:rgba(78,184,72,.15);box-shadow:0 4px 18px rgba(78,184,72,.04)}
+        .faq__item.active{border-color:rgba(78,184,72,.2);box-shadow:0 6px 24px rgba(78,184,72,.06)}
+        .faq__q{width:100%;display:flex;align-items:center;gap:14px;padding:20px 24px;background:none;border:none;cursor:pointer;text-align:left;font-family:inherit}
+        .faq__q-icon{width:38px;height:38px;min-width:38px;border-radius:10px;background:var(--green-bg);display:flex;align-items:center;justify-content:center;font-size:.85rem;color:var(--green);transition:all .35s ease}
+        .faq__item.active .faq__q-icon{background:var(--green);color:var(--white);box-shadow:0 4px 12px rgba(78,184,72,.25)}
+        .faq__q-text{flex:1;font-size:.98rem;font-weight:700;color:var(--txt);line-height:1.4;text-align:left}
+        .faq__item.active .faq__q-text{color:var(--green)}
+        .faq__q-toggle{width:28px;height:28px;min-width:28px;display:flex;align-items:center;justify-content:center;transition:transform .35s ease}
+        .faq__q-toggle i{font-size:.7rem;color:#bbb;transition:color var(--ease)}
+        .faq__item.active .faq__q-toggle{transform:rotate(180deg)}
+        .faq__item.active .faq__q-toggle i{color:var(--green)}
+        .faq__a{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .3s ease;padding:0 24px}
+        .faq__item.active .faq__a{max-height:300px;padding:0 24px 22px}
+        .faq__a-inner{padding-left:52px}
+        .faq__a-text{font-size:.9rem;color:#666;line-height:1.8;margin:0}
+
+        /* ================================================
+           SECTION 8: FOOTER
+        ================================================= */
+        .footer{background:var(--dark);padding:48px 0 0;color:rgba(255,255,255,.75)}
+        .footer__g{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px;margin-bottom:32px}
+        .footer h3{font-size:15px;font-weight:700;color:var(--white);margin-bottom:16px}
+        .footer p,.footer a{font-size:13px;color:rgba(255,255,255,.65);line-height:1.7}.footer a:hover{color:var(--green)}
+        .footer__links{display:flex;flex-direction:column;gap:8px}
+        .fci{display:flex;gap:10px;margin-bottom:12px}.fci i{color:var(--green);margin-top:3px;width:16px;text-align:center;flex-shrink:0}
+        .footer__map{border-radius:8px;overflow:hidden;margin-top:12px}.footer__map iframe{width:100%;height:180px;border:0}
+        .footer__soc{display:flex;gap:12px;margin-top:16px}
+        .footer__soc a{width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;color:var(--white);font-size:14px;transition:background var(--ease)}.footer__soc a:hover{background:var(--green)}
+        .footer__b{border-top:1px solid rgba(255,255,255,.1);padding:20px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}.footer__b p{font-size:12px;color:rgba(255,255,255,.4)}
+
+        /* ================================================
+           MODAL
+        ================================================= */
+        .mo{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:2000;display:none;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(4px)}.mo.open{display:flex}
+        .md{background:var(--white);border-radius:16px;width:100%;max-width:480px;padding:36px;position:relative;max-height:90vh;overflow-y:auto}
+        .md__x{position:absolute;top:16px;right:16px;background:none;border:none;cursor:pointer;font-size:20px;color:var(--txt-lt);transition:color var(--ease)}.md__x:hover{color:var(--txt)}
+        .md h2{font-size:22px;font-weight:700;margin-bottom:4px}.md__sub{font-size:14px;color:var(--txt-lt);margin-bottom:24px}
+        .fg{margin-bottom:16px}.fg label{display:block;font-size:13px;font-weight:600;margin-bottom:6px}
+        .fg input,.fg textarea{width:100%;padding:11px 14px;border:1px solid var(--bdr);border-radius:6px;font-family:inherit;font-size:14px;color:var(--txt);outline:0;transition:border-color var(--ease)}
+        .fg input:focus,.fg textarea:focus{border-color:var(--green)}.fg input.error,.fg textarea.error{border-color:#d32f2f}
+        .fg .er{font-size:12px;color:#d32f2f;margin-top:4px;display:none}.fg .er.show{display:block}
+        .fg textarea{resize:vertical;min-height:80px}
+        .fs-btn{width:100%;padding:13px;background:var(--green);color:var(--white);border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;font-family:inherit;transition:background var(--ease)}.fs-btn:hover{background:var(--green-dk)}.fs-btn:disabled{opacity:.6;cursor:not-allowed}
+        .fok{display:none;text-align:center;padding:32px 16px}.fok i{font-size:48px;color:var(--green);margin-bottom:12px}.fok h3{font-size:18px;font-weight:700;margin-bottom:8px}.fok p{font-size:14px;color:var(--txt-lt)}
+
+        /* ================================================
+           RESPONSIVE
+        ================================================= */
+        @media(max-width:768px){
+            /* Navbar mobile */
+            .navbar__menu{position:fixed;top:var(--nav-h);left:0;width:100%;flex-direction:column;background:var(--white);padding:16px 24px;gap:0;border-bottom:1px solid var(--bdr);transform:translateY(-120%);opacity:0;transition:all var(--ease);pointer-events:none;max-height:80vh;overflow-y:auto}
+            .navbar__menu.open{transform:translateY(0);opacity:1;pointer-events:all}
+            .navbar__toggle{display:block}
+            /* Reset desktop item bridge */
+            .navbar__item{padding-bottom:0;margin-bottom:0}
+            /* Link: fixed layout, no movement */
+            .navbar__link{width:100%;padding:12px 0;justify-content:flex-start}
+            /* Disable desktop hover rotate on chevron */
+            .navbar__item:hover .navbar__link i.fa-chevron-down{transform:none}
+            /* Use class-based rotate instead */
+            .navbar__item.mob-open .navbar__link i.fa-chevron-down{transform:rotate(180deg)}
+            /* Dropdown: static flow, no positioning */
+            .navbar__dropdown{position:static;opacity:1;visibility:visible;pointer-events:all;transform:none;box-shadow:none;border:none;border-radius:0;padding:0 0 4px 20px;display:none;min-width:auto;margin:0;background:transparent}
+            .navbar__item.mob-open .navbar__dropdown{display:block}
+            /* Disable desktop hover dropdown */
+            .navbar__item:hover .navbar__dropdown{opacity:1;visibility:visible;pointer-events:all}
+            .navbar__dropdown a{padding:6px 0;font-size:13px}
+            .navbar__lang{margin:8px 0 0 0}
+            .navbar__cta{margin:8px 0 0 0;width:100%;text-align:center;justify-content:center;margin-left:0}
+            /* Hero */
+            .hero{min-height:460px}
+            .hero h1{font-size:32px}
+            .hero__btns{flex-direction:column;align-items:center}
+            .hero__btns .btn{width:100%;max-width:320px;justify-content:center}
+            .hero__content{text-align:center;margin:0 auto}
+            .hero__sub{margin-left:auto;margin-right:auto}
+            /* Benefits */
+            .bg{grid-template-columns:repeat(2,1fr)}
+            /* Sirkular */
+            .sirkular__flow{flex-direction:column;align-items:center;gap:0}
+            .sirkular__step{flex-direction:column;align-items:center}
+            .sirkular__arrow{transform:rotate(90deg);margin:6px 0}
+            .sirkular__cycle-row{flex-direction:column;align-items:center;gap:0;margin-top:16px}
+            .sirkular__node{flex-direction:column;align-items:center}
+            .sirkular__cycle-arrow{transform:rotate(90deg);margin:6px 0}
+            /* CTA */
+            .cta__content h2{font-size:28px}
+            /* Footer */
+            .footer__g{grid-template-columns:1fr;gap:28px}
+            .footer__b{flex-direction:column;text-align:center}
+        }
+        @media(max-width:480px){
+            .hero h1{font-size:26px}
+            .bg{grid-template-columns:1fr}
+            .sirkular__box{padding:12px 20px;font-size:14px;min-width:80px}
+            .sirkular__node-box{padding:12px 16px;font-size:13px;min-width:90px}
+            .cta__content h2{font-size:24px}
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <!-- ================================================
+         SECTION 1: NAVBAR
+         Mega menu dropdown sesuai struktur navigasi website
+    ================================================= -->
+    <header class="navbar" id="navbar" role="banner">
+        <div class="container">
+            <a href="https://www.sirkularkarya-indonesia.com/" class="navbar__logo" aria-label="Beranda">
+                <img src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/01/ski-logo-1024x444.png" alt="Sirkular Karya Indonesia" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">
+                <span class="navbar__logo-text" style="display:none">SKI <span>Sirkular Karya</span></span>
+            </a>
+            <nav aria-label="Navigasi utama">
+                <ul class="navbar__menu" id="navMenu" role="menubar">
+                    <!-- Tentang Kami -->
+                    <li class="navbar__item" role="none">
+                        <button class="navbar__link" role="menuitem">Tentang Kami <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="navbar__dropdown">
+                            <a href="https://www.sirkularkarya-indonesia.com/tentang-kami/" target="_blank" rel="noopener noreferrer">Profil Perusahaan</a>
+                        </div>
+                    </li>
+                    <!-- Produk Sirkular -->
+                    <li class="navbar__item" role="none">
+                        <button class="navbar__link" role="menuitem">Produk Sirkular <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="navbar__dropdown">
+                            <a href="https://www.sirkularkarya-indonesia.com/atap-alduro/" target="_blank" rel="noopener noreferrer">Atap Alduro</a>
+                            <a href="https://www.sirkularkarya-indonesia.com/ecolite/" target="_blank" rel="noopener noreferrer">Atap Ecolite</a>
+                            <a href="https://www.sirkularkarya-indonesia.com/alderon-te/" target="_blank" rel="noopener noreferrer">Atap Alderon TE</a>
+                            <a href="https://www.sirkularkarya-indonesia.com/papan-alduro/" target="_blank" rel="noopener noreferrer">Papan Alduro</a>
+                            <a href="https://www.sirkularkarya-indonesia.com/alcotuff/" target="_blank" rel="noopener noreferrer">Alcotuff</a>
+                            <a href="https://www.sirkularkarya-indonesia.com/decobond/" target="_blank" rel="noopener noreferrer">Decobond</a>
+                        </div>
+                    </li>
+                    <!-- Keberlanjutan -->
+                    <li class="navbar__item" role="none">
+                        <button class="navbar__link" role="menuitem">Keberlanjutan <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="navbar__dropdown">
+                            <a href="https://www.sirkularkarya-indonesia.com/dampak-kami/" target="_blank" rel="noopener noreferrer">Dampak Kami</a>
+                            <a href="https://www.sirkularkarya-indonesia.com/bank-sampah-binaan-ski/" target="_blank" rel="noopener noreferrer">Bank Sampah Binaan SKI</a>
+                        </div>
+                    </li>
+                    <!-- Menu Lainnya -->
+                    <li class="navbar__item" role="none">
+                        <button class="navbar__link" role="menuitem">Lainnya <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="navbar__dropdown">
+                            <a href="https://www.sirkularkarya-indonesia.com/berita-publikasi/" target="_blank" rel="noopener noreferrer">Berita & Publikasi</a>
+                        </div>
+                    </li>
+                    <!-- Bahasa (bendera) -->
+                    <li class="navbar__lang" role="none">
+                        <a href="https://www.sirkularkarya-indonesia.com/" class="active-lang" title="Bahasa Indonesia">&#127470;&#127465; ID</a>
+                        <a href="https://www.sirkularkarya-indonesia.com/en/ecolite-roof/" title="English">&#127468;&#127463; EN</a>
+                    </li>
+                    <!-- CTA -->
+                    <li role="none"><button class="navbar__cta" onclick="openModal()"><i class="fa-solid fa-envelope"></i> Hubungi Kami</button></li>
+                </ul>
+            </nav>
+            <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ================================================
+             SECTION 2: HERO
+             H1, full background image, dark overlay
+        ================================================= -->
+        <section class="hero" id="hero" aria-labelledby="hero-h">
+            <div class="hero__bg" aria-hidden="true"></div>
+            <div class="hero__overlay" aria-hidden="true"></div>
+            <div class="container">
+                <div class="hero__content fade-in">
+                    <h1 id="hero-h">Atap <em>Lebih Dingin</em>, Lebih Kuat, dari <em>Daur Ulang</em> Plastik</h1>
+                    <p class="hero__sub">Solusi atap modern multilapis untuk rumah tropis Indonesia. Terbuat dari plastik daur ulang, dirancang tahan panas, anti karat, dan ramah lingkungan.</p>
+                    <div class="hero__btns">
+                        <button class="btn btn-primary" onclick="openModal()"><i class="fa-solid fa-paper-plane"></i> Dapatkan Penawaran</button>
+                        <a href="#produk" class="btn btn-outline"><i class="fa-solid fa-box-open"></i> Lihat Produk</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================
+             SECTION 3: BENEFITS / KEUNGGULAN
+             H2 + H3 per card, 4 cards
+        ================================================= -->
+        <section class="benefits" id="manfaat" aria-labelledby="bh">
+            <div class="container">
+                <div class="sh fade-in">
+                    <h2 id="bh">Mengapa Memilih <span class="hl">Atap Sirkular</span>?</h2>
+                    <p>Teknologi multilapis tanpa perekat kimia menghasilkan atap unggul untuk rumah tropis Anda</p>
+                </div>
+                <div class="bg">
+                    <article class="bc fade-in"><div class="bc__i"><i class="fa-solid fa-temperature-low"></i></div><h3>Lebih Dingin</h3><p>Lapisan reflektif memantulkan sinar matahari, menjaga suhu ruangan tetap sejuk sepanjang hari.</p></article>
+                    <article class="bc fade-in"><div class="bc__i"><i class="fa-solid fa-shield-halved"></i></div><h3>Lebih Kuat</h3><p>Material multilapis PE, PP, PET, Nylon, dan Aluminum memberikan kekuatan dan fleksibilitas tinggi.</p></article>
+                    <article class="bc fade-in"><div class="bc__i"><i class="fa-solid fa-droplet-slash"></i></div><h3>Anti Karat</h3><p>Bebas komponen logam, tahan terhadap karat dan korosi di iklim lembap tropis Indonesia.</p></article>
+                    <article class="bc fade-in"><div class="bc__i"><i class="fa-solid fa-recycle"></i></div><h3>Ramah Lingkungan</h3><p>Terbuat dari plastik daur ulang, mengurangi limbah dan mendukung ekonomi sirkular Indonesia.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================
+             SECTION 4: ALUR EKONOMI SIRKULAR
+             H2 + CSS flow diagram
+        ================================================= -->
+        <section class="sirkular" id="sirkular" aria-labelledby="sh-sirk">
+            <div class="container">
+                <div class="sh fade-in">
+                    <h2 id="sh-sirk">Alur Ekonomi <span class="hl">Sirkular SKI</span></h2>
+                    <p>Mengubah limbah plastik menjadi bahan bangunan berkualitas tinggi melalui proses sirkular</p>
+                </div>
+                <!-- Linear: Take → Make → Use → (masuk siklus) -->
+                <div class="sirkular__flow fade-in">
+                    <div class="sirkular__step"><div class="sirkular__box">Take</div><span class="sirkular__arrow"><i class="fa-solid fa-chevron-right"></i></span></div>
+                    <div class="sirkular__step"><div class="sirkular__box">Make</div><span class="sirkular__arrow"><i class="fa-solid fa-chevron-right"></i></span></div>
+                    <div class="sirkular__step"><div class="sirkular__box">Use</div><span class="sirkular__arrow"><i class="fa-solid fa-chevron-right"></i></span></div>
+                </div>
+                <!-- Cycle: Waste → Material Recovery → Productions → Extended Use → (kembali) -->
+                <div class="sirkular__cycle-row fade-in">
+                    <div class="sirkular__node"><div class="sirkular__node-box"><i class="fa-solid fa-trash-can"></i>Waste</div><span class="sirkular__cycle-arrow"><i class="fa-solid fa-chevron-right"></i></span></div>
+                    <div class="sirkular__node"><div class="sirkular__node-box"><i class="fa-solid fa-gears"></i>Material Recovery</div><span class="sirkular__cycle-arrow"><i class="fa-solid fa-chevron-right"></i></span></div>
+                    <div class="sirkular__node"><div class="sirkular__node-box"><i class="fa-solid fa-industry"></i>Productions</div><span class="sirkular__cycle-arrow"><i class="fa-solid fa-chevron-right"></i></span></div>
+                    <div class="sirkular__node"><div class="sirkular__node-box"><i class="fa-solid fa-house-chimney"></i>Extended Use</div></div>
+                </div>
+                <div class="sirkular__return fade-in">
+                    <i class="fa-solid fa-rotate-left"></i> Kembali ke siklus — dari Extended Use ke Waste
+                </div>
+                <p class="sirkular__caption fade-in">Membangun Ekosistem Daur Ulang Terpadu; Dari Sampah Menjadi Solusi Berkelanjutan</p>
+            </div>
+        </section>
+
+        <!-- ================================================
+             SECTION 5: PRODUCT CAROUSEL (Swiper)
+             H2, 6 produk
+        ================================================= -->
+        <section class="products" id="produk" aria-labelledby="ph">
+            <div class="container">
+                <div class="sh fade-in">
+                    <h2 id="ph">Produk <span class="hl">Sirkular</span> Kami</h2>
+                    <p>Rangkaian produk bahan bangunan inovatif dari daur ulang plastik</p>
+                </div>
+                <div class="swiper productSwiper fade-in">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1: Alduro Roof -->
+                        <div class="swiper-slide"><div class="pc"><span class="pc__badge">New!</span><img class="pc__logo" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/alduro-roof-logo.webp" alt="Alduro Roof" loading="lazy"><img class="pc__img" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/alduro-roof-e1762744752578.webp" alt="Atap Alduro Roof multilapis daur ulang" loading="lazy"><a href="https://www.sirkularkarya-indonesia.com/atap-alduro/" class="pc__btn" target="_blank" rel="noopener noreferrer">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a></div></div>
+                        <!-- Slide 2: Alduro Board -->
+                        <div class="swiper-slide"><div class="pc"><span class="pc__badge">New!</span><img class="pc__logo" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/alduro-board-logo.webp" alt="Alduro Board" loading="lazy"><img class="pc__img" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/alduro-board-e1762746297302.webp" alt="Papan Alduro Board" loading="lazy"><a href="https://www.sirkularkarya-indonesia.com/papan-alduro/" class="pc__btn" target="_blank" rel="noopener noreferrer">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a></div></div>
+                        <!-- Slide 3: Ecolite -->
+                        <div class="swiper-slide"><div class="pc"><img class="pc__logo" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/ecolite-logo.webp" alt="Ecolite" loading="lazy"><img class="pc__img" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/ecolite-e1762748991548.webp" alt="Atap Ecolite" loading="lazy"><a href="https://www.sirkularkarya-indonesia.com/ecolite/" class="pc__btn" target="_blank" rel="noopener noreferrer">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a></div></div>
+                        <!-- Slide 4: Alderon TE -->
+                        <div class="swiper-slide"><div class="pc"><img class="pc__logo" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/alderon-te-logo.webp" alt="Alderon TE" loading="lazy"><img class="pc__img" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/alderon-te-e1762749033420.webp" alt="Atap Alderon TE" loading="lazy"><a href="https://www.sirkularkarya-indonesia.com/alderon-te/" class="pc__btn" target="_blank" rel="noopener noreferrer">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a></div></div>
+                        <!-- Slide 5: Alcotuff -->
+                        <div class="swiper-slide"><div class="pc"><img class="pc__logo" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/alcotuff-logo-e1762755501116.webp" alt="Alcotuff" loading="lazy"><img class="pc__img" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/alcotuff.webp" alt="ACP Alcotuff" loading="lazy"><a href="https://www.sirkularkarya-indonesia.com/alcotuff/" class="pc__btn" target="_blank" rel="noopener noreferrer">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a></div></div>
+                        <!-- Slide 6: Decobond -->
+                        <div class="swiper-slide"><div class="pc"><img class="pc__logo" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/decobond-logo-e1762755527653.webp" alt="Decobond" loading="lazy"><img class="pc__img" src="https://www.sirkularkarya-indonesia.com/wp-content/uploads/2025/11/decobond.webp" alt="ACP Decobond" loading="lazy"><a href="https://www.sirkularkarya-indonesia.com/decobond/" class="pc__btn" target="_blank" rel="noopener noreferrer">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a></div></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================
+             SECTION 6: CTA
+             H2 copywriting, CTA button
+        ================================================= -->
+        <section class="cta-s" id="cta" aria-labelledby="ch">
+            <div class="container">
+                <div class="cta__content fade-in">
+                    <h2 id="ch">Bangun Rumah Tropis Impian Anda dengan Atap yang Peduli Lingkungan</h2>
+                    <p>Setiap lembar atap sirkular kami mengubah limbah plastik menjadi perlindungan kokoh untuk keluarga Anda. Lebih dingin di musim panas, lebih senyap saat hujan, dan lebih hemat untuk jangka panjang.</p>
+                    <button class="btn btn-white" onclick="openModal()"><i class="fa-solid fa-paper-plane"></i> Konsultasi Gratis Sekarang</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================
+             SECTION 7: FAQ
+             Accordion, 5 items
+        ================================================= -->
+        <section class="faq" id="faq" aria-labelledby="fh">
+            <div class="container">
+                <div class="sh fade-in">
+                    <h2 id="fh">Pertanyaan yang Sering <span class="hl">Ditanyakan</span></h2>
+                </div>
+                <div class="faq__list fade-in">
+                    <div class="faq__item"><button class="faq__q"><div class="faq__q-icon"><i class="fa-solid fa-recycle"></i></div><span class="faq__q-text">Terbuat dari bahan apa atap sirkular SKI?</span><div class="faq__q-toggle"><i class="fa-solid fa-chevron-down"></i></div></button><div class="faq__a"><div class="faq__a-inner"><p class="faq__a-text">Atap sirkular SKI terbuat dari plastik daur ulang yang diolah menjadi lembaran multilapis (PE, PP, PET, Nylon, dan Aluminum). Proses produksi tanpa perekat kimia menghasilkan material yang kuat, fleksibel, dan ramah lingkungan.</p></div></div></div>
+                    <div class="faq__item"><button class="faq__q"><div class="faq__q-icon"><i class="fa-solid fa-scale-balanced"></i></div><span class="faq__q-text">Apa perbedaan antara Alduro Roof dan Ecolite?</span><div class="faq__q-toggle"><i class="fa-solid fa-chevron-down"></i></div></button><div class="faq__a"><div class="faq__a-inner"><p class="faq__a-text">Alduro Roof adalah atap multilapis premium dengan teknologi 5+ lapisan proteksi, dirancang untuk rumah dan bangunan komersial. Ecolite terbuat dari botol PET daur ulang, lebih ringan dan ekonomis, cocok untuk gudang dan kanopi.</p></div></div></div>
+                    <div class="faq__item"><button class="faq__q"><div class="faq__q-icon"><i class="fa-solid fa-truck-fast"></i></div><span class="faq__q-text">Bagaimana cara memesan produk SKI?</span><div class="faq__q-toggle"><i class="fa-solid fa-chevron-down"></i></div></button><div class="faq__a"><div class="faq__a-inner"><p class="faq__a-text">Hubungi tim kami melalui form di halaman ini, telepon 021 2188 2000, atau email support@sirkularkarya-indonesia.com. Tim kami akan membantu menghitung kebutuhan material dan memberikan penawaran harga terbaik.</p></div></div></div>
+                    <div class="faq__item"><button class="faq__q"><div class="faq__q-icon"><i class="fa-solid fa-temperature-low"></i></div><span class="faq__q-text">Seberapa efektif atap sirkular mengurangi panas?</span><div class="faq__q-toggle"><i class="fa-solid fa-chevron-down"></i></div></button><div class="faq__a"><div class="faq__a-inner"><p class="faq__a-text">Lapisan aluminum pada atap sirkular mampu memantulkan sinar matahari secara signifikan, sehingga suhu di bawah atap lebih dingin dibandingkan atap logam konvensional. Ini membantu mengurangi penggunaan AC dan menghemat biaya listrik.</p></div></div></div>
+                    <div class="faq__item"><button class="faq__q"><div class="faq__q-icon"><i class="fa-solid fa-palette"></i></div><span class="faq__q-text">Apakah tersedia dalam berbagai warna dan ukuran?</span><div class="faq__q-toggle"><i class="fa-solid fa-chevron-down"></i></div></button><div class="faq__a"><div class="faq__a-inner"><p class="faq__a-text">Ya, produk atap sirkular SKI tersedia dalam beberapa pilihan warna dan ukuran yang dapat disesuaikan dengan kebutuhan proyek Anda. Hubungi tim kami untuk informasi lengkap mengenai varian yang tersedia.</p></div></div></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================================================
+         SECTION 8: FOOTER
+    ================================================= -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__g">
+                <div>
+                    <h3>Kantor Pusat</h3>
+                    <div class="fci"><i class="fa-solid fa-building"></i><p>Altira Office Tower, 38th Floor Altira Business Park, Jl. Yos Sudarso Kav. 85, Sunter Jaya, Tj. Priok, Jakarta Utara, DKI Jakarta 14350</p></div>
+                    <div class="fci"><i class="fa-solid fa-phone"></i><p>021 2188 2000</p></div>
+                    <div class="footer__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d507755.4164532318!2d106.887031!3d-6.152286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f56af29821bf%3A0xcbca6e42f4ae4147!2sAltira%20Business%20Park!5e0!3m2!1sid!2sus!4v1778578085970!5m2!1sid!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lokasi Altira Business Park"></iframe></div>
+                    <h3 style="margin-top:24px">Pabrik</h3>
+                    <div class="fci"><i class="fa-solid fa-warehouse"></i><p>Dusun Sukamulya, RT.25/RW.06, Anggadita, Klari, Karawang, Jawa Barat 41371</p></div>
+                    <div class="fci"><i class="fa-solid fa-warehouse"></i><p>Jl. Raya Inti Blok C-4 No. 2-3, Cibatu, Cikarang Selatan, Bekasi, Jawa Barat 17530</p></div>
+                </div>
+                <div>
+                    <h3>Produk Sirkular</h3>
+                    <div class="footer__links">
+                        <a href="https://www.sirkularkarya-indonesia.com/atap-alduro/" target="_blank" rel="noopener noreferrer">Atap Alduro</a>
+                        <a href="https://www.sirkularkarya-indonesia.com/ecolite/" target="_blank" rel="noopener noreferrer">Atap Ecolite</a>
+                        <a href="https://www.sirkularkarya-indonesia.com/alderon-te/" target="_blank" rel="noopener noreferrer">Atap Alderon TE</a>
+                        <a href="https://www.sirkularkarya-indonesia.com/papan-alduro/" target="_blank" rel="noopener noreferrer">Papan Alduro</a>
+                        <a href="https://www.sirkularkarya-indonesia.com/alcotuff/" target="_blank" rel="noopener noreferrer">ACP Alcotuff</a>
+                        <a href="https://www.sirkularkarya-indonesia.com/decobond/" target="_blank" rel="noopener noreferrer">ACP Decobond</a>
+                    </div>
+                    <h3 style="margin-top:24px">Keberlanjutan</h3>
+                    <div class="footer__links">
+                        <a href="https://www.sirkularkarya-indonesia.com/dampak-kami/" target="_blank" rel="noopener noreferrer">Dampak Kami</a>
+                        <a href="https://www.sirkularkarya-indonesia.com/bank-sampah-binaan-ski/" target="_blank" rel="noopener noreferrer">Bank Sampah Binaan SKI</a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Media Sosial</h3>
+                    <div class="footer__soc">
+                        <a href="https://instagram.com/sirkularkarya.id" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://facebook.com/sirkularkarya.id" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/sirkularkaryaindonesia" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:support@sirkularkarya-indonesia.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <p style="margin-top:24px"><strong style="color:var(--white)">Email</strong><br>support@sirkularkarya-indonesia.com</p>
+                    <h3 style="margin-top:24px">Perusahaan</h3>
+                    <div class="footer__links">
+                        <a href="https://www.sirkularkarya-indonesia.com/tentang-kami/" target="_blank" rel="noopener noreferrer">Profil Perusahaan</a>
+                        <a href="https://www.sirkularkarya-indonesia.com/berita-publikasi/" target="_blank" rel="noopener noreferrer">Berita & Publikasi</a>
+                    </div>
+                    <p style="margin-top:24px;font-size:12px;color:rgba(255,255,255,.4)">Bagian dari</p>
+                    <p><a href="https://www.impack-pratama.com/" target="_blank" rel="noopener noreferrer" style="color:var(--white);font-weight:600">Impack Pratama Group</a></p>
+                </div>
+            </div>
+            <div class="footer__b">
+                <p>&copy; 2026 PT Sirkular Karya Indonesia. Hak cipta dilindungi.</p>
+                <p><a href="https://www.sirkularkarya-indonesia.com/kebijakan-privasi/" target="_blank" rel="noopener noreferrer">Kebijakan Privasi</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================================================
+         MODAL FORM
+    ================================================= -->
+    <div class="mo" id="mo" aria-hidden="true" role="dialog" aria-labelledby="mh">
+        <div class="md">
+            <button class="md__x" onclick="closeModal()" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+            <div id="fw">
+                <h2 id="mh">Hubungi Kami</h2>
+                <p class="md__sub">Isi form di bawah, tim kami akan menghubungi Anda segera.</p>
+                <div id="cf">
+                    <div class="fg"><label for="nama">Nama Lengkap</label><input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required autocomplete="name"><span class="er" id="e1">Nama wajib diisi</span></div>
+                    <div class="fg"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="contoh@email.com" required autocomplete="email"><span class="er" id="e2">Masukkan email yang valid</span></div>
+                    <div class="fg"><label for="telepon">Nomor Telepon</label><input type="tel" id="telepon" name="telepon" placeholder="08xxxxxxxxxx" required autocomplete="tel"><span class="er" id="e3">Nomor telepon wajib diisi</span></div>
+                    <div class="fg"><label for="pesan">Pesan</label><textarea id="pesan" name="pesan" placeholder="Kebutuhan atap, ukuran, atau pertanyaan Anda" required></textarea><span class="er" id="e4">Pesan wajib diisi</span></div>
+                    <button type="button" class="fs-btn" id="sb" onclick="submitForm()"><i class="fa-solid fa-paper-plane"></i> Kirim Pesan</button>
+                </div>
+            </div>
+            <div class="fok" id="fok"><i class="fa-solid fa-circle-check"></i><h3>Pesan Terkirim!</h3><p>Terima kasih, tim kami akan menghubungi Anda segera.</p></div>
+        </div>
+    </div>
+
+    <!-- ================================================
+         JAVASCRIPT
+    ================================================= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script>
+    /* --- 1. Navbar Scroll --- */
+    !function(){var n=document.getElementById('navbar'),s=!1;window.addEventListener('scroll',function(){var v=window.scrollY>10;v!==s&&(s=v,n.classList.toggle('scrolled',v))},{passive:!0})}();
+
+    /* --- 2. Mobile Menu + Dropdown --- */
+    !function(){var t=document.getElementById('navToggle'),m=document.getElementById('navMenu');
+    t.addEventListener('click',function(){var o=m.classList.toggle('open');t.setAttribute('aria-expanded',o)});
+    // Mobile: toggle dropdown on click
+    document.querySelectorAll('.navbar__item > .navbar__link').forEach(function(btn){
+        btn.addEventListener('click',function(){
+            if(window.innerWidth<=768){
+                var item=btn.parentElement;
+                var wasOpen=item.classList.contains('mob-open');
+                document.querySelectorAll('.navbar__item').forEach(function(el){el.classList.remove('mob-open')});
+                if(!wasOpen)item.classList.add('mob-open');
+            }
+        });
+    });
+    // Close menu when dropdown link clicked
+    m.querySelectorAll('.navbar__dropdown a, .navbar__cta').forEach(function(e){
+        e.addEventListener('click',function(){m.classList.remove('open');t.setAttribute('aria-expanded','false');document.querySelectorAll('.navbar__item').forEach(function(el){el.classList.remove('mob-open')})})
+    })}();
+
+    /* --- 3. Intersection Observer --- */
+    !function(){var e=document.querySelectorAll('.fade-in');if('IntersectionObserver'in window){var o=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visible');o.unobserve(x.target)}})},{threshold:.1});e.forEach(function(el){o.observe(el)})}else e.forEach(function(el){el.classList.add('visible')})}();
+
+    /* --- 4. Modal --- */
+    function openModal(){var m=document.getElementById('mo');m.classList.add('open');m.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';resetForm()}
+    function closeModal(){var m=document.getElementById('mo');m.classList.remove('open');m.setAttribute('aria-hidden','true');document.body.style.overflow=''}
+    document.getElementById('mo').addEventListener('click',function(e){if(e.target===this)closeModal()});
+
+    /* --- 5. Form + Apps Script --- */
+    var APPS_SCRIPT_URL='https://script.google.com/macros/s/AKfycbz9u8w6u5NsCa0JhesuR6QznQ3TaNZ5_rdzOinLdLXu5a2-z736QscJKYLE3GzhkqHBTQ/exec';
+    function v(id,eid,fn){var i=document.getElementById(id),e=document.getElementById(eid),ok=fn(i.value.trim());i.classList.toggle('error',!ok);e.classList.toggle('show',!ok);return ok}
+    function submitForm(){
+        var ok=!0;
+        ok=v('nama','e1',function(x){return x.length>0})&&ok;
+        ok=v('email','e2',function(x){return/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(x)})&&ok;
+        ok=v('telepon','e3',function(x){return x.length>=8})&&ok;
+        ok=v('pesan','e4',function(x){return x.length>0})&&ok;
+        if(!ok)return;
+        var b=document.getElementById('sb');b.disabled=!0;b.innerHTML='<i class="fa-solid fa-spinner fa-spin"></i> Mengirim...';
+        var d={nama:document.getElementById('nama').value.trim(),email:document.getElementById('email').value.trim(),telepon:document.getElementById('telepon').value.trim(),pesan:document.getElementById('pesan').value.trim(),timestamp:new Date().toISOString()};
+        if(APPS_SCRIPT_URL!=='YOUR_APPS_SCRIPT_URL'){fetch(APPS_SCRIPT_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).then(done).catch(done)}else{setTimeout(done,800)}
+        function done(){document.getElementById('fw').style.display='none';document.getElementById('fok').style.display='block'}
+    }
+    function resetForm(){
+        document.getElementById('fw').style.display='block';document.getElementById('fok').style.display='none';
+        document.getElementById('nama').value='';document.getElementById('email').value='';
+        document.getElementById('telepon').value='';document.getElementById('pesan').value='';
+        var b=document.getElementById('sb');b.disabled=false;b.innerHTML='<i class="fa-solid fa-paper-plane"></i> Kirim Pesan';
+        ['nama','email','telepon','pesan'].forEach(function(id){document.getElementById(id).classList.remove('error')});
+        ['e1','e2','e3','e4'].forEach(function(id){document.getElementById(id).classList.remove('show')});
+    }
+
+    /* --- 6. Swiper --- */
+    new Swiper('.productSwiper',{slidesPerView:1,spaceBetween:16,loop:!0,autoplay:{delay:3000,disableOnInteraction:!1},pagination:{el:'.swiper-pagination',clickable:!0},breakpoints:{640:{slidesPerView:2},1024:{slidesPerView:3}}});
+
+    /* --- 7. FAQ --- */
+    !function(){var items=document.querySelectorAll('.faq__item');items.forEach(function(item){item.querySelector('.faq__q').addEventListener('click',function(){var a=item.classList.contains('active');items.forEach(function(el){el.classList.remove('active')});if(!a)item.classList.add('active')})})}();
+    </script>
+</body>
+</html>
